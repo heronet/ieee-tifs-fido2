@@ -1,0 +1,71 @@
+\documentclass[lettersize,journal]{IEEEtran}
+\usepackage{amsmath,amsfonts}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{array}
+\usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+\usepackage{textcomp}
+\usepackage{stfloats}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{cite}
+
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta, automata, fit, backgrounds, calc}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+
+\hyphenation{op-tical net-works semi-conduc-tor IEEE-Xplore}
+% updated with editorial comments 8/9/2021
+
+\begin{document}
+
+\title{CTAP2.1 on Zephyr RTOS: Design and Multi-Platform Evaluation of an Open-Source FIDO2 Authenticator}
+
+\author{
+    Md~Siratul~Islam
+    and~Md~Rasedujjaman
+    \thanks{Md Siratul Islam is with the Department of Physics, Shahjalal University of Science and Technology, Sylhet 3114, Bangladesh (e-mail: email@sirat.me).}
+    \thanks{Md Rasedujjaman is with the Department of Electrical and Electronic Engineering, Shahjalal University of Science and Technology, Sylhet 3114, Bangladesh.}
+}
+
+% The paper headers
+\markboth{IEEE Transactions on Information Forensics and Security,~Vol.~14, No.~8, August~2021}%
+{S. Islam and M. Rasedujjaman: CTAP2.1 on Zephyr RTOS: Design and Multi-Platform Evaluation of an Open-Source FIDO2 Authenticator}
+
+\IEEEpubid{0000--0000/00\$00.00~\copyright~2021 IEEE}
+% Remember, if you use this you must call \IEEEpubidadjcol in the second
+% column for its text to clear the IEEEpubid mark.
+
+\maketitle
+
+\begin{abstract}
+This document describes the most common article elements and how to use the IEEEtran class with \LaTeX \ to produce files that are suitable for submission to the IEEE.  IEEEtran can produce conference, journal, and technical note (correspondence) papers with a suitable choice of class options.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Article submission, IEEE, IEEEtran, journal, \LaTeX, paper, template, typesetting.
+\end{IEEEkeywords}
+
+\input{sections/01_introduction}
+\newpage
+
+\input{sections/02_related}
+\input{sections/05_formal}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\newpage
+
+
+\vfill
+
+\end{document}
+
+
